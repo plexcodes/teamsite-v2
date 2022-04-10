@@ -10,7 +10,7 @@
 
 
 <svelte:head>
-	<title>InfO(1)Robotics</title>
+	<title>infO(1)Robotics</title>
 </svelte:head>
 
 <main>

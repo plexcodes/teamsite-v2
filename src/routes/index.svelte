@@ -9,7 +9,7 @@
 </script>
 
 <svelte:head>
-	<title>InfO(1)Robotics</title>
+	<title>infO(1)Robotics</title>
 </svelte:head>
 
 <html lang="en">
@@ -649,7 +649,7 @@ z-index: 0;
 		color: #15181e;
 		text-align: unset;
 		font-weight: 500;
-		font-size: 10vh;
+		font-size: 8em;
 		line-height: 0.4;
 	}
 
@@ -660,7 +660,7 @@ z-index: 0;
 	.splash-title p {
 		color: #15181e;
 		margin-top: -10px;
-		font-size: 150%;
+		font-size: 2em;
 		text-transform: uppercase;
 	}
 
@@ -680,7 +680,7 @@ z-index: 0;
 		.alignCAD {
 			left: 0%;
 			width: 50%;
-			top: 40%;
+			top: 37.5%;
 		}
 		.splashscreen h1 {
 			text-align: center;
@@ -689,6 +689,7 @@ z-index: 0;
 			text-align: center;
 			left: 20%;
 			top: 75%;
+			margin-top: 3.5%;
 			padding-top: 0;
 			padding-left: 0;
 			-ms-transform: translateY(-50%);
