@@ -687,14 +687,15 @@ z-index: 0;
 		}
 		.splash-title {
 			text-align: center;
-			left: 20%;
 			top: 75%;
 			margin-top: 3.5%;
 			padding-top: 0;
 			padding-left: 0;
-			-ms-transform: translateY(-50%);
-			transform: translateY(-50%);
 			font-size: 150%;
+
+			left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90vw;
 		}
 		.splash-title h1 {
 			font-size: 500%;
