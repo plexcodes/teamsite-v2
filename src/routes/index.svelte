@@ -687,13 +687,12 @@ z-index: 0;
 		}
 		.splash-title {
 			text-align: center;
-			left: 20%;
 			top: 75%;
 			margin-top: 3.5%;
 			padding-top: 0;
 			padding-left: 0;
-			-ms-transform: translateY(-50%);
-			transform: translateY(-50%);
+			display: flex;
+  			justify-content: center;
 			font-size: 150%;
 		}
 		.splash-title h1 {
