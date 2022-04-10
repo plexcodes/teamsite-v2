@@ -219,147 +219,153 @@ FOR FUTURE USE
 		{#if ready}<h1 in:fade={{ duration: 2000 }} style="margin-top:2.5%;">
 				><b>Sponsors</b> and <b>Partners</b><span class="terminal">_</span>
 			</h1>{/if}
-	</div>
-	<div class="sponsors">
-		{#if ready}<a in:fade={{ duration: 2000 }} href="http://www.ploiesti.ro/"
-				><img
-					src="primarie.png"
-					alt="Primaria Municipiului Ploiesti"
-					style="width:10%;margin-top:0vh !important;"
-				/></a
-			>{/if}
-		<br />
-		{#if ready}<a in:fade={{ duration: 2000 }} href="https://www.pfarma.ro/"
-				><img src="farmaline.png" alt="Farmaline" style="width:25%;margin-top:5vh;" /></a
-			>{/if}
-		{#if ready}<a
-				in:fade={{ duration: 2000 }}
-				href="https://www.international-alexander.ro/en/home/"
-				><img
-					src="alexander.png"
-					alt="International Alexander"
-					style="width:20%;margin-top:5vh;margin-left:5vh;"
-				/></a
-			>{/if}
-		<br />
-		{#if ready}<a in:fade={{ duration: 2000 }} href="https://www.pufuletigusto.ro/en/"
-				><img src="gusto.png" alt="Gusto Pufuleti" style="width:10%;margin-top:5vh;" /></a
-			>{/if}
-		{#if ready}<a in:fade={{ duration: 2000 }} href="https://www.audiolux.ro/"
-				><img
-					src="audiolux.png"
-					alt="AudioLux"
-					style="width:20%;margin-top:5vh;margin-left:5vh;margin-right:5vh;"
-				/></a
-			>{/if}
-		{#if ready}<a in:fade={{ duration: 2000 }} href="https://superdentist.ro/"
-				><img src="superdentist.png" alt="SuperDentist" style="width:25%;margin-top:5vh;" /></a
-			>{/if}
-		<br />
-		{#if ready}<a in:fade={{ duration: 2000 }} href="https://ipad.ro/"
-				><img src="ipad.png" alt="IPAD ROMANIA" style="width:10%;margin-top:5vh;" /></a
-			>{/if}
-		{#if ready}<a in:fade={{ duration: 2000 }} href="https://www.conpet.ro/"
-				><img src="conpet.png" alt="Conpet" style="width:20%;margin-top:5vh;margin-left:5vh;" /></a
-			>{/if}
-		{#if ready}<a
-				in:fade={{ duration: 2000 }}
-				href="https://www.google.com/maps/place/Crisman+PiM/@44.9421177,25.9850561,15z/data=!4m2!3m1!1s0x0:0x7cd388e97b25c5dc?sa=X&ved=2ahUKEwjLusWtiIf3AhVNhP0HHeVWDuMQ_BJ6BAhJEAU"
-				><img
-					src="crisman.png"
-					alt="criSman"
-					style="width:20%;margin-top:5vh;margin-left:2.5vh;"
-				/></a
-			>{/if}
-		{#if ready}<a in:fade={{ duration: 2000 }} href="https://www.niko.com.ro/"
-				><img
-					src="niko.png"
-					alt="Niko Romania"
-					style="width:5%;margin-top:5vh;margin-left:3.5vh;"
-				/></a
-			>{/if}
-		<br />
-		{#if ready}<a in:fade={{ duration: 2000 }} href="https://servtop.ro/"
-				><img src="servtop.png" alt="Servtop Romania" style="width:18%;margin-top:5vh;" /></a
-			>{/if}
 
-		{#if ready}<a
-				in:fade={{ duration: 2000 }}
-				href="https://www.google.com/maps/place/M%C4%83cel%C4%83rie+Tradi%C8%9Bionala+Pion/@44.9421402,25.9960646,15z/data=!4m5!3m4!1s0x0:0xe9d5e74823936fca!8m2!3d44.9421413!4d25.9960651"
-				><img
-					src="pion.png"
-					alt="Pion Impex"
-					style="width:10%;margin-top:5vh;margin-left:3.5vh;"
-				/></a
-			>{/if}
-		<br />
-		<br />
-		<br />
-		{#if ready}<a in:fade={{ duration: 2000 }} href="https://natieprineducatie.ro/"
-				><img src="brd.png" alt="Natie Prin Educatie" style="width:50%;" /></a
-			>{/if}
-		<br />
-		{#if ready}<a in:fade={{ duration: 2000 }} href="https://centrulexcelenta.com/"
-				><img
-					src="cex.png"
-					alt="Centrul de Excelenta Prahova"
-					style="width:10%;margin-top:2.5vh;"
-				/></a
-			>{/if}
-		{#if ready}<a in:fade={{ duration: 2000 }} href="http://www.cn-caragiale.ro/"
-				><img src="cara.png" alt="CNILC" style="width:8%;margin-top:2.5vh;margin-left:2.5vh;" /></a
-			>{/if}
-		{#if ready}<a in:fade={{ duration: 2000 }} href="https://www.facebook.com/info1robotics"
-				><img
-					src="educatie.png"
-					alt="Performanta Prin Educatie"
-					style="width:9%;margin-top:2.5vh;margin-left:2.5vh;"
-				/></a
-			>{/if}
-		{#if ready}<a in:fade={{ duration: 2000 }} href="https://sites.google.com/site/centrulinfo1/"
-				><img
-					src="info1project.png"
-					alt="Proiectul infO1"
-					style="width:25%;margin-top:2.5vh;margin-left:1vh;"
-				/></a
-			>{/if}
+
+			<div class="sponsors">
+				{#if ready}<a in:fade={{ duration: 2000 }} href="http://www.ploiesti.ro/"
+						><img
+							src="primarie.png"
+							alt="Primaria Municipiului Ploiesti"
+							style="width:10%;margin-top:0vh !important;"
+						/></a
+					>{/if}
+				<br />
+				{#if ready}<a in:fade={{ duration: 2000 }} href="https://www.pfarma.ro/"
+						><img src="farmaline.png" alt="Farmaline" style="width:25%;" /></a
+					>{/if}
+				{#if ready}<a
+						in:fade={{ duration: 2000 }}
+						href="https://www.international-alexander.ro/en/home/"
+						><img
+							src="alexander.png"
+							alt="International Alexander"
+							style="width:20%;"
+						/></a
+					>{/if}
+				<br />
+				{#if ready}<a in:fade={{ duration: 2000 }} href="https://www.pufuletigusto.ro/en/"
+						><img src="gusto.png" alt="Gusto Pufuleti" style="width:10%;" /></a
+					>{/if}
+				{#if ready}<a in:fade={{ duration: 2000 }} href="https://www.audiolux.ro/"
+						><img
+							src="audiolux.png"
+							alt="AudioLux"
+							style="width:20%;"
+						/></a
+					>{/if}
+				{#if ready}<a in:fade={{ duration: 2000 }} href="https://superdentist.ro/"
+						><img src="superdentist.png" alt="SuperDentist" style="width:25%;" /></a
+					>{/if}
+				<br />
+				{#if ready}<a in:fade={{ duration: 2000 }} href="https://ipad.ro/"
+						><img src="ipad.png" alt="IPAD ROMANIA" style="width:10%;" /></a
+					>{/if}
+				{#if ready}<a in:fade={{ duration: 2000 }} href="https://www.conpet.ro/"
+						><img src="conpet.png" alt="Conpet" style="width:20%;" /></a
+					>{/if}
+				{#if ready}<a
+						in:fade={{ duration: 2000 }}
+						href="https://www.google.com/maps/place/Crisman+PiM/@44.9421177,25.9850561,15z/data=!4m2!3m1!1s0x0:0x7cd388e97b25c5dc?sa=X&ved=2ahUKEwjLusWtiIf3AhVNhP0HHeVWDuMQ_BJ6BAhJEAU"
+						><img
+							src="crisman.png"
+							alt="criSman"
+							style="width:20%;"
+						/></a
+					>{/if}
+				{#if ready}<a in:fade={{ duration: 2000 }} href="https://www.niko.com.ro/"
+						><img
+							src="niko.png"
+							alt="Niko Romania"
+							style="width:5%;"
+						/></a
+					>{/if}
+				<br />
+				{#if ready}<a in:fade={{ duration: 2000 }} href="https://servtop.ro/"
+						><img src="servtop.png" alt="Servtop Romania" style="width:18%;" /></a
+					>{/if}
+		
+				{#if ready}<a
+						in:fade={{ duration: 2000 }}
+						href="https://www.google.com/maps/place/M%C4%83cel%C4%83rie+Tradi%C8%9Bionala+Pion/@44.9421402,25.9960646,15z/data=!4m5!3m4!1s0x0:0xe9d5e74823936fca!8m2!3d44.9421413!4d25.9960651"
+						><img
+							src="pion.png"
+							alt="Pion Impex"
+							style="width:10%;"
+						/></a
+					>{/if}
+				<br />
+				<br />
+				<br />
+				{#if ready}<a in:fade={{ duration: 2000 }} href="https://natieprineducatie.ro/"
+						><img src="brd.png" alt="Natie Prin Educatie" style="width:50%;" /></a
+					>{/if}
+				<br />
+				{#if ready}<a in:fade={{ duration: 2000 }} href="https://centrulexcelenta.com/"
+						><img
+							src="cex.png"
+							alt="Centrul de Excelenta Prahova"
+							style="width:10%;"
+						/></a
+					>{/if}
+				{#if ready}<a in:fade={{ duration: 2000 }} href="http://www.cn-caragiale.ro/"
+						><img src="cara.png" alt="CNILC" style="width:8%;" /></a
+					>{/if}
+				{#if ready}<a in:fade={{ duration: 2000 }} href="https://www.facebook.com/info1robotics"
+						><img
+							src="educatie.png"
+							alt="Performanta Prin Educatie"
+							style="width:9%;"
+						/></a
+					>{/if}
+				{#if ready}<a in:fade={{ duration: 2000 }} href="https://sites.google.com/site/centrulinfo1/"
+						><img
+							src="info1project.png"
+							alt="Proiectul infO1"
+							style="width:25%;	"
+						/></a
+					>{/if}
+			</div>
+
+	
+			<div class="linkssection">
+				{#if ready}<a in:fade={{ duration: 2000 }} href="https://www.instagram.com/info1robotics/"
+						><img
+							src="https://drive.google.com/uc?id=1cMI5UrBOrvltwZ090ys5m7wCe4c1u4fd"
+							alt="INSTAGRAM"
+						/></a
+					>{/if}
+				{#if ready}<a in:fade={{ duration: 2000 }} href="https://www.facebook.com/info1robotics/"
+						><img
+							src="https://drive.google.com/uc?id=1YDEBin_npoElopwus2CouhVJqNORE8aM"
+							alt="FACEBOOK"
+						/></a
+					>{/if}
+				{#if ready}<a
+						in:fade={{ duration: 2000 }}
+						href="https://www.youtube.com/channel/UC6PkNCRNEQOfKuciVltqzTQ"
+						><img
+							src="https://drive.google.com/uc?id=1HndKVFjySGNx1edEEH9OXP7zRnRA4qUG"
+							alt="YOUTUBE"
+						/></a
+					>{/if}
+				{#if ready}<a
+						in:fade={{ duration: 2000 }}
+						href="https://open.spotify.com/show/6glFbyo8OnIqih7RuPjB1e"
+						><img
+							src="https://drive.google.com/uc?id=1ki_ydOgY3Kz7qzI3m12DP1EgLvndMa6B"
+							alt="SPOTIFY"
+						/></a
+					>{/if}
+				{#if ready}<a in:fade={{ duration: 2000 }} href="mailto: info1robotics@gmail.com"
+						><img
+							src="https://drive.google.com/uc?id=17d8EWjB6gFm1NVgigRpdm1iHloEFQDIk"
+							alt="EMAIL"
+						/></a
+					>{/if}
+			</div>
+
 	</div>
-	<div class="linkssection">
-		{#if ready}<a in:fade={{ duration: 2000 }} href="https://www.instagram.com/info1robotics/"
-				><img
-					src="https://drive.google.com/uc?id=1cMI5UrBOrvltwZ090ys5m7wCe4c1u4fd"
-					alt="INSTAGRAM"
-				/></a
-			>{/if}
-		{#if ready}<a in:fade={{ duration: 2000 }} href="https://www.facebook.com/info1robotics/"
-				><img
-					src="https://drive.google.com/uc?id=1YDEBin_npoElopwus2CouhVJqNORE8aM"
-					alt="FACEBOOK"
-				/></a
-			>{/if}
-		{#if ready}<a
-				in:fade={{ duration: 2000 }}
-				href="https://www.youtube.com/channel/UC6PkNCRNEQOfKuciVltqzTQ"
-				><img
-					src="https://drive.google.com/uc?id=1HndKVFjySGNx1edEEH9OXP7zRnRA4qUG"
-					alt="YOUTUBE"
-				/></a
-			>{/if}
-		{#if ready}<a
-				in:fade={{ duration: 2000 }}
-				href="https://open.spotify.com/show/6glFbyo8OnIqih7RuPjB1e"
-				><img
-					src="https://drive.google.com/uc?id=1ki_ydOgY3Kz7qzI3m12DP1EgLvndMa6B"
-					alt="SPOTIFY"
-				/></a
-			>{/if}
-		{#if ready}<a in:fade={{ duration: 2000 }} href="mailto: info1robotics@gmail.com"
-				><img
-					src="https://drive.google.com/uc?id=17d8EWjB6gFm1NVgigRpdm1iHloEFQDIk"
-					alt="EMAIL"
-				/></a
-			>{/if}
-	</div>
+
 </html>
 
 <style>
@@ -749,7 +755,20 @@ z-index: 0;
 		border: 3px solid #d0d3e1;
 		border-radius: 16px;
 	}
-
+	.sponsors img{
+		display:unset !important;
+		border: 0px !important;
+		border-radius: 0 !important;
+		margin-top: 2.5vh !important;
+		margin-left: 2.5vh !important;
+		margin-right: 2.5vh !important;
+		margin-bottom: 2.5vh !important;
+	}
+	.linkssection img{
+		display:unset !important;
+		border: 0px !important;
+		border-radius: 0 !important;
+	}
 	.sponsors {
 		position: relative;
 		text-align: center;
