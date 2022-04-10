@@ -770,17 +770,17 @@ z-index: 0;
 		border-radius: 0 !important;
 	}
 	.sponsors {
-		position: relative;
-		text-align: center;
-		margin-top: 10vh;
-		width: 100vw;
+		position: relative !important;
+		text-align: center !important;
+		margin-top: 10vh !important;
+		width: 100vw !important;
 	}
 	.linkssection {
-		position: relative;
-		margin-top: 5vh;
+		position: relative !important;
+		margin-top: 5vh !important;
 	}
 	.linkssection img {
-		width: 19.5vw;
-		height: auto;
+		width: 19.5vw !important;
+		height: auto !important;
 	}
 </style>
