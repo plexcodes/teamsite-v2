@@ -530,7 +530,8 @@
 		flex: 0 0 auto;
 		height: 50px;
 		border: 1px solid black;
-		margin-right: 3%;
+		margin-right: 1.5%;
+		margin-left: 1.5%;
 		margin-bottom: 3%;
 	}
 	.card1 {
@@ -544,7 +545,8 @@
 		flex: 0 0 auto;
 		height: 50px;
 		border: 1px solid black;
-		margin-right: 3%;
+		margin-right: 1.5%;
+		margin-left: 1.5%;
 		margin-bottom: 3%;
 	}
 	.card_tudor {
@@ -558,8 +560,8 @@
 		flex: 0 0 auto;
 		height: 50px;
 		border: 1px solid black;
-		margin-right: 3%;
-		margin-left: 3%;
+		margin-right: 1.5%;
+		margin-left: 1.5%;
 		margin-bottom: 3%;
 	}
 	.card_antonia {
@@ -574,6 +576,8 @@
 		height: 50px;
 		border: 1px solid black;
 		margin-right: 0;
+		margin-right: 1.5%;
+		margin-left: 1.5%;
 		margin-bottom: 3%;
 	}
 	.card_gabi {
@@ -587,16 +591,16 @@
 		flex: 0 0 auto;
 		height: 50px;
 		border: 1px solid black;
-		margin-right: 3%;
 		margin-bottom: 3%;
-		margin-left: 0;
+		margin-right: 1.5%;
+		margin-left: 1.5%;
 	}
 	@media only screen and (max-width: 1000px) {
 		.card_antonia {
 			margin-right: 3%;
 		}
 		.card_gabi {
-			margin-left: 3%;
+			margin-left: 5%;
 			margin-right: 0;
 		}
 		.card_tudor {
@@ -614,6 +618,8 @@
 		flex: 0 0 auto;
 		height: 50px;
 		border: 1px solid black;
+		margin-right: 1.5%;
+		margin-left: 1.5%;
 		margin-bottom: 3%;
 	}
 	.card3 {
@@ -627,7 +633,8 @@
 		flex: 0 0 auto;
 		height: 50px;
 		border: 1px solid black;
-		margin-right: 3%;
+		margin-right: 1.5%;
+		margin-left: 1.5%;
 		margin-bottom: 3%;
 	}
 	@media only screen and (max-width: 1000px) {
