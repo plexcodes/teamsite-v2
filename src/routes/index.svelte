@@ -226,42 +226,42 @@ FOR FUTURE USE
 						><img
 							src="primarie.png"
 							alt="Primaria Municipiului Ploiesti"
-							style="width:10%;margin-top:0vh !important;"
+							style="width:15% !important; margin-top:-5vh !important;"
 						/></a
 					>{/if}
 				<br />
 				{#if ready}<a in:fade={{ duration: 2000 }} href="https://www.pfarma.ro/"
-						><img src="farmaline.png" alt="Farmaline" style="width:25%;" /></a
+						><img src="farmaline.png" alt="Farmaline" style="width:40% !important;" /></a
 					>{/if}
 				{#if ready}<a
 						in:fade={{ duration: 2000 }}
-						href="https://www.international-alexander.ro/en/home/"
+						href="https://www.intesrnational-alexander.ro/en/home/"
 						><img
 							src="alexander.png"
 							alt="International Alexander"
-							style="width:20%;"
+							style="width:30% !important;"
 						/></a
 					>{/if}
 				<br />
 				{#if ready}<a in:fade={{ duration: 2000 }} href="https://www.pufuletigusto.ro/en/"
-						><img src="gusto.png" alt="Gusto Pufuleti" style="width:10%;" /></a
+						><img src="gusto.png" alt="Gusto Pufuleti" style="width:10% !important;" /></a
 					>{/if}
 				{#if ready}<a in:fade={{ duration: 2000 }} href="https://www.audiolux.ro/"
 						><img
 							src="audiolux.png"
 							alt="AudioLux"
-							style="width:20%;"
+							style="width:20% !important;"
 						/></a
 					>{/if}
 				{#if ready}<a in:fade={{ duration: 2000 }} href="https://superdentist.ro/"
-						><img src="superdentist.png" alt="SuperDentist" style="width:25%;" /></a
+						><img src="superdentist.png" alt="SuperDentist" style="width:25% !important;" /></a
 					>{/if}
 				<br />
 				{#if ready}<a in:fade={{ duration: 2000 }} href="https://ipad.ro/"
-						><img src="ipad.png" alt="IPAD ROMANIA" style="width:10%;" /></a
+						><img src="ipad.png" alt="IPAD ROMANIA" style="width:10% !important;" /></a
 					>{/if}
 				{#if ready}<a in:fade={{ duration: 2000 }} href="https://www.conpet.ro/"
-						><img src="conpet.png" alt="Conpet" style="width:20%;" /></a
+						><img src="conpet.png" alt="Conpet" style="width:20% !important;" /></a
 					>{/if}
 				{#if ready}<a
 						in:fade={{ duration: 2000 }}
@@ -269,19 +269,19 @@ FOR FUTURE USE
 						><img
 							src="crisman.png"
 							alt="criSman"
-							style="width:20%;"
+							style="width:20% !important;"
 						/></a
 					>{/if}
 				{#if ready}<a in:fade={{ duration: 2000 }} href="https://www.niko.com.ro/"
 						><img
 							src="niko.png"
 							alt="Niko Romania"
-							style="width:5%;"
+							style="width:5% !important;"
 						/></a
 					>{/if}
 				<br />
 				{#if ready}<a in:fade={{ duration: 2000 }} href="https://servtop.ro/"
-						><img src="servtop.png" alt="Servtop Romania" style="width:18%;" /></a
+						><img src="servtop.png" alt="Servtop Romania" style="width:20% !important;" /></a
 					>{/if}
 		
 				{#if ready}<a
@@ -290,38 +290,38 @@ FOR FUTURE USE
 						><img
 							src="pion.png"
 							alt="Pion Impex"
-							style="width:10%;"
+							style="width:10% !important;"
 						/></a
 					>{/if}
 				<br />
 				<br />
 				<br />
 				{#if ready}<a in:fade={{ duration: 2000 }} href="https://natieprineducatie.ro/"
-						><img src="brd.png" alt="Natie Prin Educatie" style="width:50%;" /></a
+						><img src="brd.png" alt="Natie Prin Educatie" style="width:50% !important;margin-top:0 !important;" /></a
 					>{/if}
 				<br />
 				{#if ready}<a in:fade={{ duration: 2000 }} href="https://centrulexcelenta.com/"
 						><img
 							src="cex.png"
 							alt="Centrul de Excelenta Prahova"
-							style="width:10%;"
+							style="width:10% !important;margin-top:0 !important;"
 						/></a
 					>{/if}
 				{#if ready}<a in:fade={{ duration: 2000 }} href="http://www.cn-caragiale.ro/"
-						><img src="cara.png" alt="CNILC" style="width:8%;" /></a
+						><img src="cara.png" alt="CNILC" style="width:8% !important;" /></a
 					>{/if}
 				{#if ready}<a in:fade={{ duration: 2000 }} href="https://www.facebook.com/info1robotics"
 						><img
 							src="educatie.png"
 							alt="Performanta Prin Educatie"
-							style="width:9%;"
+							style="width:9% !important;margin-top:0 !important;"
 						/></a
 					>{/if}
 				{#if ready}<a in:fade={{ duration: 2000 }} href="https://sites.google.com/site/centrulinfo1/"
 						><img
 							src="info1project.png"
 							alt="Proiectul infO1"
-							style="width:25%;	"
+							style="width:25% !important;margin-top:0 !important;	"
 						/></a
 					>{/if}
 			</div>
