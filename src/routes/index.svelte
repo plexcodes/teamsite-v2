@@ -666,7 +666,10 @@ z-index: 0;
 
 	.alignCAD {
 		z-index: 2;
-		width: 20%;
+		width:20%;
+		max-width: 100%;
+    height: auto;
+    width: auto\9;
 		position: absolute;
 		left: 50%;
 		top: 50%;
