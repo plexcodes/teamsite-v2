@@ -68,17 +68,17 @@
 		<!-- Ongoing issue: the background particles are fixed to the screen -->
 
 		<span class="splash-title">
-			{#if ready}<h1 in:fly={{ x: -5000, duration: 1000 }}>inf<b>O(1)</b></h1>{/if}
-			{#if ready}<h1 in:fly={{ x: -5000, duration: 1000 }}>Robotics</h1>{/if}
-			{#if ready}<p in:fly={{ x: -5000, duration: 1000 }}>
+			{#if ready}<h1 in:fly={{ x: -2000, duration: 1000 }}>inf<b>O(1)</b></h1>{/if}
+			{#if ready}<h1 in:fly={{ x: -2000, duration: 1100 }}>Robotics</h1>{/if}
+			{#if ready}<p in:fly={{ x: -2000, duration: 1250 }}>
 					>Aspire to <b>INSPIRE</b>💚<span class="terminal">_</span>
 				</p>{/if}
 		</span>
 		{#if ready}<div class="alignCAD">
-				<img src="/robot.png" alt="CAD" in:fly={{ x: 5000, duration: 1000 }} />
+				<img src="robot.png" alt="CAD" in:fly={{ x: 2000, duration: 1250 }} />
 			</div>{/if}
-		<div class="spinning"><img src="vortex.svg" /></div>
-	</div>
+			{#if ready}<div in:fly={{ x: 2000, duration: 1000 }} class="spinning"><img src="vortex.svg" alt="vortex"/></div>{/if}
+		</div>
 
 	<!-- About Us Section -->
 
@@ -763,38 +763,5 @@ z-index: 0;
 	.linkssection img {
 		width: 19.5vw;
 		height: auto;
-	}
-
-	.bg {
-		height: 100vh;
-		animation: slide 25s ease-in-out infinite alternate;
-		background-image: linear-gradient(-60deg, #6c3 50%, #fff 50%);
-		bottom: 0;
-		left: -50%;
-		opacity: 0.5;
-		position: absolute;
-		right: -50%;
-		top: 0;
-		overflow: hidden !important;
-	}
-
-	.bg2 {
-		animation-direction: alternate-reverse;
-		animation-duration: 15s;
-		overflow: hidden !important;
-	}
-
-	.bg3 {
-		animation-duration: 10s;
-		overflow: hidden !important;
-	}
-
-	@keyframes slide {
-		0% {
-			transform: translateX(-25%);
-		}
-		100% {
-			transform: translateX(25%);
-		}
 	}
 </style>
