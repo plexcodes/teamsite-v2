@@ -57,12 +57,12 @@
 
     <div class="background">
         <div class=title>
-            <h1>Check out the <b>3D CAD</b> of our <b>2022 Worlds Freight Frenzy Robot!</b></h1>
+            {#if ready}<h1 in:fly={{ y: -2000, duration: 2000 }}>Check out the <b>3D CAD</b> of our <b>2022 Worlds Freight Frenzy Robot!</b></h1>{/if}
         </div>
-        {#if ready}<div in:fly={{ x: 2000, duration: 1000 }} class="spinning"><img src="vortex.svg" alt="vortex"/></div>{/if}
+        {#if ready}<div in:fly={{ y: 2000, duration: 2000 }} class="spinning"><img src="vortex.svg" alt="vortex"/></div>{/if}
 
         <div class="cadframe">
-        <iframe src="https://gmail759693.autodesk360.com/shares/public/SH35dfcQT936092f0e43ebe71ccd56b6222f?mode=embed" width="1024" height="768" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+            {#if ready}<iframe in:fade={{ duration: 5000 }} src="https://gmail759693.autodesk360.com/shares/public/SH35dfcQT936092f0e43ebe71ccd56b6222f?mode=embed" width="1024" height="768" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>{/if}
         </div>
     </div>
 </html>
