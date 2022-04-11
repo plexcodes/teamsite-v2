@@ -28,7 +28,7 @@
 	<!-- Desktop Navigation Bar -->
 
 	{#if ready}<nav in:fly={{ y: -50, duration: 500 }} class="nav" id="navbar">
-			<a href="/3D">>3D Renders<span class="terminal">_</span></a>
+			<a href="/3d">>3D Renders<span class="terminal">_</span></a>
 			<a href="/members">>Members<span class="terminal">_</span></a>
 			<a href="/" class="nav-active">>Home<span class="terminal">_</span></a>
 

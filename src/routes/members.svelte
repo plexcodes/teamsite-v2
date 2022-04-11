@@ -23,7 +23,7 @@
 	<meta name="viewport" content="user-scalable=0;" />
 	<div class="HTML">
 		{#if ready}<nav in:fly={{ y: -50, duration: 500 }} class="nav" id="navbar">
-				<a href="/">>3D Renders<span class="terminal">_</span></a>
+				<a href="/3d">>3D Renders<span class="terminal">_</span></a>
 				<a href="/members.html" class="nav-active">>Members<span class="terminal">_</span></a>
 				<a href="/">>Home<span class="terminal">_</span></a>
 
@@ -121,7 +121,7 @@
 							<p class="title1">>PR Dept. Leader<span class="terminal">_</span></p>
 						</div>
 					</div>
-					<div class="card2" style="margin-right:0;">
+					<div class="card2">
 						<img src="alin.png" alt="Alin Andras" style="width:100%" />
 						<div class="container">
 							<h2>>Alin Andras<span class="terminal">_</span></h2>
@@ -137,7 +137,7 @@
 						</div>
 					</div>
 
-					<div class="card" style="margin-right:0;">
+					<div class="card">
 						<img src="alex.jpg" alt="Alexandru Sandulescu" style="width:100%" />
 						<div class="container">
 							<h2>>Alexandru Sandulescu<span class="terminal">_</span></h2>
@@ -172,7 +172,7 @@
 						</div>
 					</div>
 
-					<div class="card_antonia" style="margin-right:0;">
+					<div class="card_antonia">
 						<img src="antonia.png" alt="Antonia Barbu" style="width:100%" />
 						<div class="container">
 							<h2>>Antonia Barbu<span class="terminal">_</span></h2>
@@ -201,7 +201,7 @@
 						</div>
 					</div>
 
-					<div class="card1" style="margin-right:0;">
+					<div class="card1">
 						<img src="rares.png" alt="Rares Neagoe" style="width:100%" />
 						<div class="container">
 							<h2>>Rares Neagoe<span class="terminal">_</span></h2>
@@ -218,7 +218,7 @@
 						</div>
 					</div>
 
-					<div class="card" style="margin-right:0;">
+					<div class="card">
 						<img src="vlad.png" alt="Vlad Dinu" style="width:100%" />
 						<div class="container">
 							<h2>>Vlad Dinu<span class="terminal">_</span></h2>

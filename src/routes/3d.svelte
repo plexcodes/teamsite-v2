@@ -1,0 +1,246 @@
+<script>
+    	import { fade, fly, slide } from 'svelte/transition'; // Svelte - Transitions
+	import { onMount } from 'svelte'; // Svelte - JS Load
+	// import Particles from 'svelte-particles'; // Background Typescript-Based tsParticles Library
+	// import { inview } from 'svelte-inview/src';
+	// let isInView;
+	let ready = false;
+	onMount(() => (ready = true));
+</script>
+<html lang="en">
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto+Mono:wght@100&family=Share+Tech+Mono&display=swap"
+		rel="stylesheet"
+	/>
+	<meta name="viewport" content="user-scalable=0;" />
+
+	<div class="HTML" />
+
+	<!-- Desktop Navigation Bar -->
+
+	{#if ready}<nav in:fly={{ y: -50, duration: 500 }} class="nav" id="navbar">
+			<a href="/3d" class="nav-active">>3D Renders<span class="terminal">_</span></a>
+			<a href="/members">>Members<span class="terminal">_</span></a>
+			<a href="/">>Home<span class="terminal">_</span></a>
+
+			<a class="nav-logo" href="/">
+				{#if ready}<img
+						in:fade={{ duration: 2000 }}
+						src="https://drive.google.com/uc?id=1eK_A6X-RjwRQrR1Ek0tPIGPCJonpFCB6"
+						id="navbar-logo"
+						alt="Logo"
+					/>{/if}</a
+			>
+		</nav>{/if}
+	<div id="main" />
+
+	<!-- Mobile Navigation Menu -->
+
+	<link
+		rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+	/>
+	<input type="checkbox" id="active" />
+	<label for="active" class="menu-btn"><i class="fas fa-bars" /></label>
+
+	<div class="wrapper">
+		<ul>
+			<li><a href="/">>Home<span class="terminal">_</span></a></li>
+			<li>
+				<a href="/members">>Members<span class="terminal">_</span></a>
+			</li>
+			<li><a href="/3d">>3D Renders<span class="terminal">_</span></a></li>
+		</ul>
+	</div>
+</html>
+
+<style>
+
+:global(body) {
+    scroll-behavior: smooth;
+    font-family: 'orbitron';
+    background-color: #39b44a;
+    overflow:hidden;
+    margin: 0;
+	padding: 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.cadframe{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+
+.nav {
+		z-index: 1000;
+		padding-left: 4vh;
+		padding-right: 4vh;
+		height: 7vh;
+		background-color: #15181e;
+		box-sizing: border-box;
+		position: fixed;
+		width: 100%;
+		transition: all 0.3s ease-in-out;
+	}
+
+	.nav a {
+		padding: 2.5vh 2.8vh 2.6vh 1.2vh;
+		float: right;
+		text-transform: uppercase;
+		font-size: 1.7vh;
+		font-weight: 500;
+		text-decoration: none;
+		color: #fff;
+		transition: all 0.2s ease-in-out;
+	}
+
+	.nav > .nav-logo {
+		padding: 1vh 0 3vh 5vh;
+		float: left;
+		position: relative;
+		left: 5vh;
+	}
+	.nav-logo img {
+		height: 5vh;
+		margin: 0;
+		transition: all 0.3s ease-in-out;
+	}
+	img:hover {
+		transform: rotate(360deg);
+	}
+	.nav a {
+		font-size: 1.5vh;
+	}
+	.nav a:hover {
+		transform: scale(1.2);
+	}
+	.nav > .nav-active {
+		color: #39b44a;
+	}
+
+	@media only screen and (max-width: 1000px) {
+		.nav {
+			display: none;
+		}
+	}
+	.nav a {
+		float: center;
+		font-size: 1.3vh;
+	}
+
+	@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+	/* Mobile Navigation Menu */
+
+	.wrapper {
+		z-index: 200;
+		position: fixed;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		background: linear-gradient(#39b44a, #0b6623);
+		clip-path: circle(25px at calc(100% - 60px) 4.5vh);
+		transition: all 0.3s ease-in-out;
+	}
+
+	#active:checked ~ .wrapper {
+		clip-path: circle(75%);
+	}
+	.menu-btn {
+		position: fixed;
+		z-index: 201;
+		right: 1.4vh;
+		top: 2vh;
+		height: 5vh;
+		width: 5vh;
+		text-align: center;
+		line-height: 5vh;
+		border-radius: 50%;
+		font-size: 2vh;
+		color: #fff;
+		cursor: pointer;
+		background: #15181e;
+		transition: all 0.3s ease-in-out;
+	}
+	#active:checked ~ .menu-btn {
+		background: #fff;
+		color: #39b44a;
+	}
+	#active:checked ~ .menu-btn i:before {
+		content: '\f00d';
+	}
+	.wrapper ul {
+		position: relative;
+		top: 50%;
+		list-style: none;
+		text-align: center;
+	}
+	.wrapper ul li {
+		margin: 15px 0;
+	}
+	.wrapper ul li a {
+		color: none;
+		text-decoration: none;
+		font-size: 4vh;
+		font-weight: 500;
+		padding: 5px 30px;
+		color: #fff;
+		position: relative;
+		line-height: 5vh;
+		transition: all 0.3s ease;
+	}
+	.wrapper ul li a:after {
+		position: absolute;
+		content: '';
+		background: #000;
+		width: 100%;
+		height: 100px;
+		left: 0;
+		border-radius: 50px;
+		transform: scaleY(0);
+		z-index: -1;
+		transition: transform 0.3s ease;
+	}
+	.wrapper ul li a:hover:after {
+		transform: scaleY(1);
+	}
+	.wrapper ul li a:hover {
+		color: #fff;
+	}
+	input[type='checkbox'] {
+		display: none;
+	}
+
+	@media (min-width: 60vh) {
+		.wrapper {
+			display: none;
+		}
+		.menu-btn {
+			display: none;
+		}
+	}
+	.terminal {
+		animation: blink 1s infinite step-end;
+	}
+
+	@keyframes blink {
+		from,
+		to {
+			opacity: 0;
+		}
+		50% {
+			opacity: 1;
+		}
+	}
+</style>
