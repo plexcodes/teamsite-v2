@@ -112,23 +112,23 @@
 		transform: translate(-50%, -50%);
 	}
 	@media only screen and (max-width: 1000px) {
-    .cadframe{
-        height:75vh;
-    }
-    .title{
-        top:12% !important;
-        font-size:120% !important;
-    }
-    }
-    .cadframe iframe {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        width: 100%;
-        height: 100%;
-    }
+		.cadframe {
+			height: 75vh;
+		}
+		.title {
+			top: 12% !important;
+			font-size: 120% !important;
+		}
+	}
+	.cadframe iframe {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		width: 100%;
+		height: 100%;
+	}
 	a {
 		color: #15181e;
 	}
