@@ -23,7 +23,7 @@
 	<meta name="viewport" content="user-scalable=0;" />
 	<div class="HTML">
 		{#if ready}<nav in:fly={{ y: -50, duration: 500 }} class="nav" id="navbar">
-				<a href="/3d">>3D Renders<span class="terminal">_</span></a>
+				<a href="/3d">>3D View<span class="terminal">_</span></a>
 				<a href="/members.html" class="nav-active">>Members<span class="terminal">_</span></a>
 				<a href="/">>Home<span class="terminal">_</span></a>
 
@@ -48,7 +48,7 @@
 			<ul>
 				<li><a href="/">Home</a></li>
 				<li><a href="/members">Members</a></li>
-				<li><a href="/3d">>3D Renders<span class="terminal">_</span></a></li>
+				<li><a href="/3d">>3D View<span class="terminal">_</span></a></li>
 			</ul>
 		</div>
 		{#if ready}<div in:fade={{ duration: 750 }}>

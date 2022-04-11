@@ -6,6 +6,16 @@
 	// let isInView;
 	let ready = false;
 	onMount(() => (ready = true));
+    let width;
+    let height;
+
+if(screen.height<screen.width){
+    width=screen.width*0.75;
+    height=screen.height*0.5;
+} else {
+    width=screen.width*2;
+    height=screen.height*2;
+}
 </script>
 <html lang="en">
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -21,7 +31,7 @@
 	<!-- Desktop Navigation Bar -->
 
 	{#if ready}<nav in:fly={{ y: -50, duration: 500 }} class="nav" id="navbar">
-			<a href="/3d" class="nav-active">>3D Renders<span class="terminal">_</span></a>
+			<a href="/3d" class="nav-active">>3D View<span class="terminal">_</span></a>
 			<a href="/members">>Members<span class="terminal">_</span></a>
 			<a href="/">>Home<span class="terminal">_</span></a>
 
@@ -51,7 +61,7 @@
 			<li>
 				<a href="/members">>Members<span class="terminal">_</span></a>
 			</li>
-			<li><a href="/3d">>3D Renders<span class="terminal">_</span></a></li>
+			<li><a href="/3d">>3D View<span class="terminal">_</span></a></li>
 		</ul>
 	</div>
 
@@ -62,7 +72,7 @@
         {#if ready}<div in:fly={{ y: 2000, duration: 2000 }} class="spinning"><img src="vortex.svg" alt="vortex"/></div>{/if}
 
         <div class="cadframe">
-            {#if ready}<iframe in:fade={{ duration: 5000 }} src="https://gmail759693.autodesk360.com/shares/public/SH35dfcQT936092f0e43ebe71ccd56b6222f?mode=embed" width="1024" height="768" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>{/if}
+            {#if ready}<iframe in:fade={{ duration: 5000 }} src="https://gmail759693.autodesk360.com/shares/public/SH35dfcQT936092f0e43ebe71ccd56b6222f?mode=embed" width={width} height={height} allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>{/if}
         </div>
     </div>
 </html>
@@ -90,11 +100,12 @@
 }
 
 .title{
+  text-align: center;
   z-index: 1;
   position: absolute;
   font-size: 0.8em;
   left: 50%;
-  top: 13.5%;
+  top: 19%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
