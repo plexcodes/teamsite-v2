@@ -8,14 +8,8 @@
 	onMount(() => (ready = true));
     let width;
     let height;
-
-if(screen.height<screen.width){
-    width=screen.width*0.75;
-    height=screen.height*0.5;
-} else {
-    width=screen.width*2;
-    height=screen.height*2;
-}
+    width=innerWidth*0.75;
+    height=innerHeight*0.6;
 </script>
 <html lang="en">
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -66,8 +60,11 @@ if(screen.height<screen.width){
 	</div>
 
     <div class="background">
+        <div class="mobiletitle">
+            {#if ready}<a href="https://a360.co/3JvUcbo"><h1 in:fly={{ y: -2000, duration: 2000 }}>Click here to see the <b>3D CAD</b> of our <b>2022 FTC Freight Frenzy World Championship Robot!</b></h1></a>{/if}
+        </div>
         <div class=title>
-            {#if ready}<h1 in:fly={{ y: -2000, duration: 2000 }}>Check out the <b>3D CAD</b> of our <b>2022 Worlds Freight Frenzy Robot!</b></h1>{/if}
+            {#if ready}<h1 in:fly={{ y: -2000, duration: 2000 }}>Check out the <b>3D CAD</b> of our <b>2022 FTC Freight Frenzy <br> World Championship Robot!</b></h1>{/if}
         </div>
         {#if ready}<div in:fly={{ y: 2000, duration: 2000 }} class="spinning"><img src="vortex.svg" alt="vortex"/></div>{/if}
 
@@ -110,7 +107,20 @@ if(screen.height<screen.width){
   transform: translate(-50%, -50%);
 }
 
-.title b {
+.mobiletitle{
+    visibility: hidden;
+    text-align: center;
+    padding-left: 0 !important;
+  z-index: 1;
+  position: absolute;
+  font-size: 1.5em;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+b {
 		color: #d0d3e1;
 	}
 
@@ -339,6 +349,7 @@ to {
 	}
 
 	@media (min-width: 60vh) {
+
 		.wrapper {
 			display: none;
 		}
@@ -346,6 +357,18 @@ to {
 			display: none;
 		}
 	}
+
+    @media (max-width: 60vh){
+        .mobiletitle{
+            visibility: visible;
+        }
+        .cadframe{
+            visibility: hidden;
+        }
+        .title{
+            visibility: hidden;
+        }
+    }
 	.terminal {
 		animation: blink 1s infinite step-end;
 	}
