@@ -1,16 +1,13 @@
 <script>
-    	import { fade, fly, slide } from 'svelte/transition'; // Svelte - Transitions
+	import { fade, fly, slide } from 'svelte/transition'; // Svelte - Transitions
 	import { onMount } from 'svelte'; // Svelte - JS Load
 	// import Particles from 'svelte-particles'; // Background Typescript-Based tsParticles Library
 	// import { inview } from 'svelte-inview/src';
 	// let isInView;
 	let ready = false;
 	onMount(() => (ready = true));
-    let width;
-    let height;
-    width=innerWidth*0.75;
-    height=innerHeight*0.6;
 </script>
+
 <html lang="en">
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
 	<link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -59,155 +56,192 @@
 		</ul>
 	</div>
 
-    <div class="background">
-        <div class="mobiletitle">
-            {#if ready}<a href="https://a360.co/3JvUcbo"><h1 in:fly={{ y: -2000, duration: 2000 }}>Click here to see the <b>3D CAD</b> of our <b>2022 FTC Freight Frenzy World Championship Robot!</b></h1></a>{/if}
-        </div>
-        <div class=title>
-            {#if ready}<h1 in:fly={{ y: -2000, duration: 2000 }}>Check out the <b>3D CAD</b> of our <b>2022 FTC Freight Frenzy <br> World Championship Robot!</b></h1>{/if}
-        </div>
-        {#if ready}<div in:fly={{ y: 2000, duration: 2000 }} class="spinning"><img src="vortex.svg" alt="vortex"/></div>{/if}
+	<div class="background">
+		<div class="mobiletitle">
+			{#if ready}<a
+					href="https://gmail759693.autodesk360.com/g/shares/SH35dfcQT936092f0e43ebe71ccd56b6222f"
+					><h1 in:fly={{ y: -2000, duration: 2000 }}>
+						Click here to see the <b>3D CAD</b> of our
+						<b>2022 FTC Freight Frenzy World Championship Robot!</b>
+					</h1></a
+				>{/if}
+		</div>
+		<div class="title">
+			{#if ready}<h1 in:fly={{ y: -2000, duration: 2000 }}>
+					Check out the <b>3D CAD</b> of our
+					<b>2022 FTC Freight Frenzy <br /> World Championship Robot!</b>
+				</h1>{/if}
+		</div>
+		{#if ready}<div in:fly={{ y: 2000, duration: 2000 }} class="spinning">
+				<img src="vortex.svg" alt="vortex" />
+			</div>{/if}
 
-        <div class="cadframe">
-            {#if ready}<iframe in:fade={{ duration: 5000 }} src="https://gmail759693.autodesk360.com/shares/public/SH35dfcQT936092f0e43ebe71ccd56b6222f?mode=embed" width={width} height={height} allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>{/if}
-        </div>
-    </div>
+		<div class="cadframe">
+			{#if ready}<iframe
+					in:fade={{ duration: 5000 }}
+					src="https://gmail759693.autodesk360.com/shares/public/SH35dfcQT936092f0e43ebe71ccd56b6222f?mode=embed"
+					allowfullscreen="true"
+					webkitallowfullscreen="true"
+					mozallowfullscreen="true"
+					frameborder="0"
+				/>{/if}
+		</div>
+	</div>
 </html>
 
 <style>
+	:global(body) {
+		scroll-behavior: smooth;
+		font-family: 'orbitron';
+		background-color: #39b44a;
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
 
-:global(body) {
-    scroll-behavior: smooth;
-    font-family: 'orbitron';
-    background-color: #39b44a;
-    overflow:hidden;
-    margin: 0;
-	padding: 0;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-}
+	.cadframe {
+		width: 75vw;
+		height: 60vh;
+		position: absolute;
+		left: 50%;
+		top: 60%;
+		-webkit-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+	}
+	@media only screen and (max-width: 1000px) {
+    .cadframe{
+        height:75vh;
+    }
+    .title{
+        top:12% !important;
+        font-size:120% !important;
+    }
+    }
+    .cadframe iframe {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+    }
+	a {
+		color: #15181e;
+	}
+	.title {
+		text-align: center;
+		z-index: 1;
+		position: absolute;
+		font-size: 0.8em;
+		left: 50%;
+		top: 19%;
+		-webkit-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+	}
 
-.cadframe{
-  position: absolute;
-  left: 50%;
-  top: 60%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
+	.mobiletitle {
+		visibility: hidden;
+		text-align: center;
+		padding-left: 0 !important;
+		z-index: 1;
+		position: absolute;
+		font-size: 1.5em;
+		left: 50%;
+		top: 50%;
+		-webkit-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+	}
 
-.title{
-  text-align: center;
-  z-index: 1;
-  position: absolute;
-  font-size: 0.8em;
-  left: 50%;
-  top: 19%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-
-.mobiletitle{
-    visibility: hidden;
-    text-align: center;
-    padding-left: 0 !important;
-  z-index: 1;
-  position: absolute;
-  font-size: 1.5em;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-
-b {
+	b {
 		color: #d0d3e1;
 	}
 
-.background{
-    background-color: #39b44a;
-    width: 100vw;
-    height: 100vh;
-}
+	.background {
+		background-color: #39b44a;
+		width: 100vw;
+		height: 100vh;
+	}
 
-.spinning {
-position: fixed;
-bottom: 80vh;
-left: 0vw;
-margin: 20px;
-width: 100px;
-height: 100px;
-z-index: 0;
-opacity: 30%;
+	.spinning {
+		position: fixed;
+		bottom: 80vh;
+		left: 0vw;
+		margin: 20px;
+		width: 100px;
+		height: 100px;
+		z-index: 0;
+		opacity: 30%;
+	}
 
-}
+	.spinning img {
+		width: 200vh;
+		height: auto;
+		position: relative;
+		filter: invert(100%);
 
-.spinning img {
-width: 200vh;
-height: auto;
-position:relative;
-filter: invert(100%);
+		transform-origin: 50% 50%;
 
-transform-origin: 50% 50%;
+		-webkit-animation-name: spin;
+		-webkit-animation-duration: 2000ms;
+		-webkit-animation-iteration-count: infinite;
+		-webkit-animation-timing-function: linear;
+		-moz-animation-name: spin;
+		-moz-animation-duration: 10000ms;
+		-moz-animation-iteration-count: infinite;
+		-moz-animation-timing-function: linear;
+		-ms-animation-name: spin;
+		-ms-animation-duration: 10000ms;
+		-ms-animation-iteration-count: infinite;
+		-ms-animation-timing-function: linear;
+		animation-name: spin;
+		animation-duration: 10000ms;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+	}
 
--webkit-animation-name: spin;
--webkit-animation-duration: 2000ms;
--webkit-animation-iteration-count: infinite;
--webkit-animation-timing-function: linear;
--moz-animation-name: spin;
--moz-animation-duration: 10000ms;
--moz-animation-iteration-count: infinite;
--moz-animation-timing-function: linear;
--ms-animation-name: spin;
--ms-animation-duration: 10000ms;
--ms-animation-iteration-count: infinite;
--ms-animation-timing-function: linear;
-animation-name: spin;
-animation-duration: 10000ms;
-animation-iteration-count: infinite;
-animation-timing-function: linear;
-}
+	@-ms-keyframes spin {
+		from {
+			-ms-transform: rotate(0deg);
+		}
+		to {
+			-ms-transform: rotate(360deg);
+		}
+	}
 
-@-ms-keyframes spin {
-from {
-    -ms-transform: rotate(0deg);
-}
-to {
-    -ms-transform: rotate(360deg);
-}
-}
+	@-moz-keyframes spin {
+		from {
+			-moz-transform: rotate(0deg);
+		}
+		to {
+			-moz-transform: rotate(360deg);
+		}
+	}
 
-@-moz-keyframes spin {
-from {
-    -moz-transform: rotate(0deg);
-}
-to {
-    -moz-transform: rotate(360deg);
-}
-}
+	@-webkit-keyframes spin {
+		from {
+			-webkit-transform: rotate(0deg);
+		}
+		to {
+			-webkit-transform: rotate(360deg);
+		}
+	}
 
-@-webkit-keyframes spin {
-from {
-    -webkit-transform: rotate(0deg);
-}
-to {
-    -webkit-transform: rotate(360deg);
-}
-}
+	@keyframes spin {
+		from {
+			transform: rotate(0deg);
+		}
+		to {
+			transform: rotate(360deg);
+		}
+	}
 
-@keyframes spin {
-from {
-    transform: rotate(0deg);
-}
-to {
-    transform: rotate(360deg);
-}
-}
+	@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
-
-
-.nav {
+	.nav {
 		z-index: 1000;
 		padding-left: 4vh;
 		padding-right: 4vh;
@@ -349,7 +383,6 @@ to {
 	}
 
 	@media (min-width: 60vh) {
-
 		.wrapper {
 			display: none;
 		}
@@ -358,17 +391,6 @@ to {
 		}
 	}
 
-    @media (max-width: 60vh){
-        .mobiletitle{
-            visibility: visible;
-        }
-        .cadframe{
-            visibility: hidden;
-        }
-        .title{
-            visibility: hidden;
-        }
-    }
 	.terminal {
 		animation: blink 1s infinite step-end;
 	}
