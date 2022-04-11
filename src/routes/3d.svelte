@@ -77,6 +77,7 @@
 			</div>{/if}
 
 		<div class="cadframe">
+			<!-- svelte-ignore a11y-missing-attribute -->
 			{#if ready}<iframe
 					in:fade={{ duration: 5000 }}
 					src="https://gmail759693.autodesk360.com/shares/public/SH35dfcQT936092f0e43ebe71ccd56b6222f?mode=embed"
@@ -93,8 +94,7 @@
 	:global(body) {
 		scroll-behavior: smooth;
 		font-family: 'orbitron';
-		background-color: #39b44a;
-		overflow: hidden;
+		overflow-x: hidden;
 		margin: 0;
 		padding: 0;
 		background-repeat: no-repeat;
