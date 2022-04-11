@@ -6,6 +6,9 @@
 	// let isInView;
 	let ready = false;
 	onMount(() => (ready = true));
+
+	let link = "https://a360.co/3JvUcbo";
+	if(screen.width>screen.height) link = "/3d";
 </script>
 
 <svelte:head>
@@ -58,7 +61,7 @@
 			<li>
 				<a href="/members">>Members<span class="terminal">_</span></a>
 			</li>
-			<li><a href="/3d">>3D View<span class="terminal">_</span></a></li>
+			<li><a href={link}>>3D View<span class="terminal">_</span></a></li>
 		</ul>
 	</div>
 
