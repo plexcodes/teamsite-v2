@@ -111,6 +111,7 @@
 		-webkit-transform: translate(-50%, -50%);
 		transform: translate(-50%, -50%);
 	}
+    
 	@media only screen and (max-width: 1000px) {
 		.cadframe {
 			height: 75vh;
