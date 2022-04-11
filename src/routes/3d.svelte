@@ -54,6 +54,17 @@
 			<li><a href="/3d">>3D Renders<span class="terminal">_</span></a></li>
 		</ul>
 	</div>
+
+    <div class="background">
+        <div class=title>
+            <h1>Check out the <b>3D CAD</b> of our <b>2022 Worlds Freight Frenzy Robot!</b></h1>
+        </div>
+        {#if ready}<div in:fly={{ x: 2000, duration: 1000 }} class="spinning"><img src="vortex.svg" alt="vortex"/></div>{/if}
+
+        <div class="cadframe">
+        <iframe src="https://gmail759693.autodesk360.com/shares/public/SH35dfcQT936092f0e43ebe71ccd56b6222f?mode=embed" width="1024" height="768" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+        </div>
+    </div>
 </html>
 
 <style>
@@ -73,9 +84,103 @@
 .cadframe{
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 60%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+}
+
+.title{
+  z-index: 1;
+  position: absolute;
+  font-size: 0.8em;
+  left: 50%;
+  top: 13.5%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.title b {
+		color: #d0d3e1;
+	}
+
+.background{
+    background-color: #39b44a;
+    width: 100vw;
+    height: 100vh;
+}
+
+.spinning {
+position: fixed;
+bottom: 80vh;
+left: 0vw;
+margin: 20px;
+width: 100px;
+height: 100px;
+z-index: 0;
+opacity: 30%;
+
+}
+
+.spinning img {
+width: 200vh;
+height: auto;
+position:relative;
+filter: invert(100%);
+
+transform-origin: 50% 50%;
+
+-webkit-animation-name: spin;
+-webkit-animation-duration: 2000ms;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-timing-function: linear;
+-moz-animation-name: spin;
+-moz-animation-duration: 10000ms;
+-moz-animation-iteration-count: infinite;
+-moz-animation-timing-function: linear;
+-ms-animation-name: spin;
+-ms-animation-duration: 10000ms;
+-ms-animation-iteration-count: infinite;
+-ms-animation-timing-function: linear;
+animation-name: spin;
+animation-duration: 10000ms;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+@-ms-keyframes spin {
+from {
+    -ms-transform: rotate(0deg);
+}
+to {
+    -ms-transform: rotate(360deg);
+}
+}
+
+@-moz-keyframes spin {
+from {
+    -moz-transform: rotate(0deg);
+}
+to {
+    -moz-transform: rotate(360deg);
+}
+}
+
+@-webkit-keyframes spin {
+from {
+    -webkit-transform: rotate(0deg);
+}
+to {
+    -webkit-transform: rotate(360deg);
+}
+}
+
+@keyframes spin {
+from {
+    transform: rotate(0deg);
+}
+to {
+    transform: rotate(360deg);
+}
 }
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
