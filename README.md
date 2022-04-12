@@ -1,6 +1,6 @@
-thing to do 2morow:
-- new tab <a> sponsors
-- compress images for faster loading
-- make 3d renders page with <iframe> fusion 360 rendering
-- further improve responsiveness
-- maybe make the splash screen cad bigger
+Website: https://info1robotics.com
+Improvements:
+-3D View Page for the robot's CAD
+-Better Responsive Design
+-Faster Loading
+-Works across all devices no matter the screen size
