@@ -736,17 +736,7 @@ FOR FUTURE USE
 		transform: translateY(-50%);
 	}
 
-	@media only screen and (max-width: 1025px) {
-		.alignCAD {
-		-ms-transform: translateY(-50%);
-		transform: translateY(-50%);
-		position: absolute;
-		left: 10% !important;
-		width: 40vw !important;
-		top: 37.5%;
-		}
-	}
-
+	
 	@media only screen and (max-width: 1000px) {
 		.alignCAD {
 			left: 0%;
