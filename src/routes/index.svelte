@@ -65,8 +65,6 @@
 	<!-- Splash Screen -->
 
 	<div class="splashscreen">
-		<!-- Ongoing issue: the background particles are fixed to the screen -->
-
 		<span class="splash-title">
 			{#if ready}<h1 in:fly={{ x: -2000, duration: 1000 }}>inf<b>O(1)</b></h1>{/if}
 			{#if ready}<h1 in:fly={{ x: -2000, duration: 1100 }}>Robotics</h1>{/if}
@@ -737,10 +735,22 @@ FOR FUTURE USE
 		-ms-transform: translateY(-50%);
 		transform: translateY(-50%);
 	}
+
+	@media only screen and (max-width: 1025px) {
+		.alignCAD {
+		-ms-transform: translateY(-50%);
+		transform: translateY(-50%);
+		position: absolute;
+		left: 10% !important;
+		width: 40vw !important;
+		top: 37.5%;
+		}
+	}
+
 	@media only screen and (max-width: 1000px) {
 		.alignCAD {
 			left: 0%;
-			width: 50%;
+			width: 50vw;
 			top: 37.5%;
 		}
 		.splashscreen h1 {
