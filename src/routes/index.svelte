@@ -223,7 +223,11 @@ FOR FUTURE USE
 			</h1>{/if}
 
 		<div class="sponsors">
-			{#if ready}<a in:fade={{ duration: 2000 }} href="http://www.ploiesti.ro/"  target="_blank" rel="noopener noreferrer"
+			{#if ready}<a
+					in:fade={{ duration: 2000 }}
+					href="http://www.ploiesti.ro/"
+					target="_blank"
+					rel="noopener noreferrer"
 					><img
 						src="primarie.png"
 						alt="Primaria Municipiului Ploiesti"
@@ -231,12 +235,18 @@ FOR FUTURE USE
 					/></a
 				>{/if}
 			<br />
-			{#if ready}<a in:fade={{ duration: 2000 }} href="https://www.pfarma.ro/"  target="_blank" rel="noopener noreferrer"
+			{#if ready}<a
+					in:fade={{ duration: 2000 }}
+					href="https://www.pfarma.ro/"
+					target="_blank"
+					rel="noopener noreferrer"
 					><img src="farmaline.png" alt="Farmaline" style="width:40% !important;" /></a
 				>{/if}
 			{#if ready}<a
 					in:fade={{ duration: 2000 }}
-					href="https://www.intesrnational-alexander.ro/en/home/"  target="_blank" rel="noopener noreferrer"
+					href="https://www.intesrnational-alexander.ro/en/home/"
+					target="_blank"
+					rel="noopener noreferrer"
 					><img
 						src="alexander.png"
 						alt="International Alexander"
@@ -244,44 +254,80 @@ FOR FUTURE USE
 					/></a
 				>{/if}
 			<br />
-			{#if ready}<a in:fade={{ duration: 2000 }} href="https://www.pufuletigusto.ro/en/" target="_blank" rel="noopener noreferrer"
+			{#if ready}<a
+					in:fade={{ duration: 2000 }}
+					href="https://www.pufuletigusto.ro/en/"
+					target="_blank"
+					rel="noopener noreferrer"
 					><img src="gusto.png" alt="Gusto Pufuleti" style="width:10% !important;" /></a
 				>{/if}
-			{#if ready}<a in:fade={{ duration: 2000 }} href="https://www.audiolux.ro/" target="_blank" rel="noopener noreferrer"
+			{#if ready}<a
+					in:fade={{ duration: 2000 }}
+					href="https://www.audiolux.ro/"
+					target="_blank"
+					rel="noopener noreferrer"
 					><img src="audiolux.png" alt="AudioLux" style="width:20% !important;" /></a
 				>{/if}
-			{#if ready}<a in:fade={{ duration: 2000 }} href="https://superdentist.ro/" target="_blank" rel="noopener noreferrer"
+			{#if ready}<a
+					in:fade={{ duration: 2000 }}
+					href="https://superdentist.ro/"
+					target="_blank"
+					rel="noopener noreferrer"
 					><img src="superdentist.png" alt="SuperDentist" style="width:25% !important;" /></a
 				>{/if}
 			<br />
-			{#if ready}<a in:fade={{ duration: 2000 }} href="https://ipad.ro/" target="_blank" rel="noopener noreferrer"
+			{#if ready}<a
+					in:fade={{ duration: 2000 }}
+					href="https://ipad.ro/"
+					target="_blank"
+					rel="noopener noreferrer"
 					><img src="ipad.png" alt="IPAD ROMANIA" style="width:10% !important;" /></a
 				>{/if}
-			{#if ready}<a in:fade={{ duration: 2000 }} href="https://www.conpet.ro/" target="_blank" rel="noopener noreferrer"
+			{#if ready}<a
+					in:fade={{ duration: 2000 }}
+					href="https://www.conpet.ro/"
+					target="_blank"
+					rel="noopener noreferrer"
 					><img src="conpet.png" alt="Conpet" style="width:20% !important;" /></a
 				>{/if}
 			{#if ready}<a
 					in:fade={{ duration: 2000 }}
-					href="https://www.google.com/maps/place/Crisman+PiM/@44.9421177,25.9850561,15z/data=!4m2!3m1!1s0x0:0x7cd388e97b25c5dc?sa=X&ved=2ahUKEwjLusWtiIf3AhVNhP0HHeVWDuMQ_BJ6BAhJEAU" target="_blank" rel="noopener noreferrer"
+					href="https://www.google.com/maps/place/Crisman+PiM/@44.9421177,25.9850561,15z/data=!4m2!3m1!1s0x0:0x7cd388e97b25c5dc?sa=X&ved=2ahUKEwjLusWtiIf3AhVNhP0HHeVWDuMQ_BJ6BAhJEAU"
+					target="_blank"
+					rel="noopener noreferrer"
 					><img src="crisman.png" alt="criSman" style="width:20% !important;" /></a
 				>{/if}
-			{#if ready}<a in:fade={{ duration: 2000 }} href="https://www.niko.com.ro/" target="_blank" rel="noopener noreferrer"
+			{#if ready}<a
+					in:fade={{ duration: 2000 }}
+					href="https://www.niko.com.ro/"
+					target="_blank"
+					rel="noopener noreferrer"
 					><img src="niko.png" alt="Niko Romania" style="width:5% !important;" /></a
 				>{/if}
 			<br />
-			{#if ready}<a in:fade={{ duration: 2000 }} href="https://servtop.ro/" target="_blank" rel="noopener noreferrer"
+			{#if ready}<a
+					in:fade={{ duration: 2000 }}
+					href="https://servtop.ro/"
+					target="_blank"
+					rel="noopener noreferrer"
 					><img src="servtop.png" alt="Servtop Romania" style="width:20% !important;" /></a
 				>{/if}
 
 			{#if ready}<a
 					in:fade={{ duration: 2000 }}
-					href="https://www.google.com/maps/place/M%C4%83cel%C4%83rie+Tradi%C8%9Bionala+Pion/@44.9421402,25.9960646,15z/data=!4m5!3m4!1s0x0:0xe9d5e74823936fca!8m2!3d44.9421413!4d25.9960651" target="_blank" rel="noopener noreferrer"
+					href="https://www.google.com/maps/place/M%C4%83cel%C4%83rie+Tradi%C8%9Bionala+Pion/@44.9421402,25.9960646,15z/data=!4m5!3m4!1s0x0:0xe9d5e74823936fca!8m2!3d44.9421413!4d25.9960651"
+					target="_blank"
+					rel="noopener noreferrer"
 					><img src="pion.png" alt="Pion Impex" style="width:10% !important;" /></a
 				>{/if}
 			<br />
 			<br />
 			<br />
-			{#if ready}<a in:fade={{ duration: 2000 }} href="https://natieprineducatie.ro/" target="_blank" rel="noopener noreferrer"
+			{#if ready}<a
+					in:fade={{ duration: 2000 }}
+					href="https://natieprineducatie.ro/"
+					target="_blank"
+					rel="noopener noreferrer"
 					><img
 						src="brd.png"
 						alt="Natie Prin Educatie"
@@ -289,24 +335,40 @@ FOR FUTURE USE
 					/></a
 				>{/if}
 			<br />
-			{#if ready}<a in:fade={{ duration: 2000 }} href="https://centrulexcelenta.com/" target="_blank" rel="noopener noreferrer"
+			{#if ready}<a
+					in:fade={{ duration: 2000 }}
+					href="https://centrulexcelenta.com/"
+					target="_blank"
+					rel="noopener noreferrer"
 					><img
 						src="cex.png"
 						alt="Centrul de Excelenta Prahova"
 						style="width:10% !important;margin-top:0 !important;"
 					/></a
 				>{/if}
-			{#if ready}<a in:fade={{ duration: 2000 }} href="http://www.cn-caragiale.ro/" target="_blank" rel="noopener noreferrer"
+			{#if ready}<a
+					in:fade={{ duration: 2000 }}
+					href="http://www.cn-caragiale.ro/"
+					target="_blank"
+					rel="noopener noreferrer"
 					><img src="cara.png" alt="CNILC" style="width:8% !important;" /></a
 				>{/if}
-			{#if ready}<a in:fade={{ duration: 2000 }} href="https://www.facebook.com/info1robotics" target="_blank" rel="noopener noreferrer"
+			{#if ready}<a
+					in:fade={{ duration: 2000 }}
+					href="https://www.facebook.com/info1robotics"
+					target="_blank"
+					rel="noopener noreferrer"
 					><img
 						src="educatie.png"
 						alt="Performanta Prin Educatie"
 						style="width:9% !important;margin-top:0 !important;"
 					/></a
 				>{/if}
-			{#if ready}<a in:fade={{ duration: 2000 }} href="https://sites.google.com/site/centrulinfo1/" target="_blank" rel="noopener noreferrer"
+			{#if ready}<a
+					in:fade={{ duration: 2000 }}
+					href="https://sites.google.com/site/centrulinfo1/"
+					target="_blank"
+					rel="noopener noreferrer"
 					><img
 						src="info1project.png"
 						alt="Proiectul infO1"
@@ -316,13 +378,21 @@ FOR FUTURE USE
 		</div>
 
 		<div class="linkssection">
-			{#if ready}<a in:fade={{ duration: 2000 }} href="https://www.instagram.com/info1robotics/" target="_blank" rel="noopener noreferrer"
+			{#if ready}<a
+					in:fade={{ duration: 2000 }}
+					href="https://www.instagram.com/info1robotics/"
+					target="_blank"
+					rel="noopener noreferrer"
 					><img
 						src="https://drive.google.com/uc?id=1cMI5UrBOrvltwZ090ys5m7wCe4c1u4fd"
 						alt="INSTAGRAM"
 					/></a
 				>{/if}
-			{#if ready}<a in:fade={{ duration: 2000 }} href="https://www.facebook.com/info1robotics/" target="_blank" rel="noopener noreferrer"
+			{#if ready}<a
+					in:fade={{ duration: 2000 }}
+					href="https://www.facebook.com/info1robotics/"
+					target="_blank"
+					rel="noopener noreferrer"
 					><img
 						src="https://drive.google.com/uc?id=1YDEBin_npoElopwus2CouhVJqNORE8aM"
 						alt="FACEBOOK"
@@ -330,7 +400,9 @@ FOR FUTURE USE
 				>{/if}
 			{#if ready}<a
 					in:fade={{ duration: 2000 }}
-					href="https://www.youtube.com/channel/UC6PkNCRNEQOfKuciVltqzTQ" target="_blank" rel="noopener noreferrer"
+					href="https://www.youtube.com/channel/UC6PkNCRNEQOfKuciVltqzTQ"
+					target="_blank"
+					rel="noopener noreferrer"
 					><img
 						src="https://drive.google.com/uc?id=1HndKVFjySGNx1edEEH9OXP7zRnRA4qUG"
 						alt="YOUTUBE"
@@ -338,13 +410,19 @@ FOR FUTURE USE
 				>{/if}
 			{#if ready}<a
 					in:fade={{ duration: 2000 }}
-					href="https://open.spotify.com/show/6glFbyo8OnIqih7RuPjB1e" target="_blank" rel="noopener noreferrer"
+					href="https://open.spotify.com/show/6glFbyo8OnIqih7RuPjB1e"
+					target="_blank"
+					rel="noopener noreferrer"
 					><img
 						src="https://drive.google.com/uc?id=1ki_ydOgY3Kz7qzI3m12DP1EgLvndMa6B"
 						alt="SPOTIFY"
 					/></a
 				>{/if}
-			{#if ready}<a in:fade={{ duration: 2000 }} href="mailto: info1robotics@gmail.com" target="_blank" rel="noopener noreferrer"
+			{#if ready}<a
+					in:fade={{ duration: 2000 }}
+					href="mailto: info1robotics@gmail.com"
+					target="_blank"
+					rel="noopener noreferrer"
 					><img
 						src="https://drive.google.com/uc?id=17d8EWjB6gFm1NVgigRpdm1iHloEFQDIk"
 						alt="EMAIL"
@@ -633,7 +711,7 @@ FOR FUTURE USE
 		color: #15181e;
 		text-align: unset;
 		font-weight: 500;
-		font-size: 8em;
+		font-size: 8vw;
 		line-height: 0.4;
 	}
 
@@ -644,7 +722,7 @@ FOR FUTURE USE
 	.splash-title p {
 		color: #15181e;
 		margin-top: -10px;
-		font-size: 2em;
+		font-size: 2vw;
 		text-transform: uppercase;
 	}
 
@@ -672,17 +750,19 @@ FOR FUTURE USE
 		.splash-title {
 			text-align: center;
 			top: 75%;
-			margin-top: 3.5%;
+			margin-top: 9vw;
 			padding-top: 0;
 			padding-left: 0;
 			font-size: 150%;
-
 			left: 50%;
 			transform: translate(-50%, -50%);
 			width: 90vw;
 		}
 		.splash-title h1 {
-			font-size: 500%;
+			font-size: 9vh;
+		}
+		.splash-title p {
+			font-size: 2.5vh;
 		}
 		.aboutus h1 {
 			font-size: 300%;
