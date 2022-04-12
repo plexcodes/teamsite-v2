@@ -107,8 +107,8 @@ FOR FUTURE USE
 			</p>{/if}
 		{#if ready}<img
 				in:fade={{ duration: 2000 }}
-				src="podium.png"
-				alt="ok"
+				src="podium.jpg"
+				alt="2022 Romanian National Championship"
 				style="width:60%;"
 			/>{/if}
 		{#if ready}<p in:fade={{ duration: 2000 }}>
@@ -120,8 +120,8 @@ FOR FUTURE USE
 			</p>{/if}
 		{#if ready}<img
 				in:fade={{ duration: 2000 }}
-				src="robot0.png"
-				alt="ok"
+				src="robot0.jpg"
+				alt="Robot In Action"
 				style="width:50%;"
 			/>{/if}
 		{#if ready}<p in:fade={{ duration: 2000 }}>
@@ -131,8 +131,8 @@ FOR FUTURE USE
 			</p>{/if}
 		{#if ready}<img
 				in:fade={{ duration: 2000 }}
-				src="vladrandom.png"
-				alt="ok"
+				src="vladrandom.jpg"
+				alt="Drivers and The Couch"
 				style="width:50%;"
 			/>{/if}
 		{#if ready}<p in:fade={{ duration: 2000 }}>
@@ -154,7 +154,7 @@ FOR FUTURE USE
 				lot of problems. Despite our first year, we won the Bucharest Regional as 2nd pick and at
 				the National Stage, we won <b>Inspire 3</b><span class="terminal">_</span>
 			</p>{/if}
-		{#if ready}<img in:fade={{ duration: 2000 }} src="2018.png" alt="ok" style="width:50%;" />{/if}
+		{#if ready}<img in:fade={{ duration: 2000 }} src="2018.jpg" alt="2018" style="width:50%;" />{/if}
 
 		{#if ready}<h1 in:fade={{ duration: 2000 }} style="margin-top:2.5%;">
 				>2019-2020<span class="terminal">_</span>
@@ -171,13 +171,12 @@ FOR FUTURE USE
 		{#if ready}<img
 				in:fade={{ duration: 2000 }}
 				src="spital.jpg"
-				alt="ok"
+				alt="Letter from the Children's Hospital"
 				style="width:50%;"
 			/>{/if}
 		{#if ready}<p
 				in:fade={{ duration: 2000 }}
-				style="margin-left:30vw;margin-right:30vw;margin-top:2.5vh;font-size:75%;"
-			>
+				style="margin-left:30vw;margin-right:30vw;margin-top:2.5vh;font-size:75%;">
 				Letter from the <b>Ploiesti Pedriatic Hospital</b>: <b>infO(1)Robotics</b> is "contaminated"
 				with
 				<b>a spirit of sacrifice and dedication for the greater good</b> of the local community<span
@@ -198,7 +197,7 @@ FOR FUTURE USE
 				>
 			</p>{/if}
 
-		{#if ready}<img in:fade={{ duration: 2000 }} src="2020.png" alt="ok" style="width:50%;" />{/if}
+		{#if ready}<img in:fade={{ duration: 2000 }} src="2020.jpg" alt="2022" style="width:50%;" />{/if}
 
 		{#if ready}<h1 in:fade={{ duration: 2000 }} style="margin-top:2.5%;">
 				>2021-2022<span class="terminal">_</span>
@@ -216,7 +215,7 @@ FOR FUTURE USE
 				for children in need and <b>Ukrainian refugees</b>💚<span class="terminal">_</span>
 			</p>{/if}
 
-		{#if ready}<img in:fade={{ duration: 2000 }} src="poppy.png" alt="ok" style="width:50%;" />{/if}
+		{#if ready}<img in:fade={{ duration: 2000 }} src="poppy.jpg" alt="Member Moving The Robot" style="width:50%;" />{/if}
 
 		{#if ready}<h1 in:fade={{ duration: 2000 }} style="margin-top:2.5%;">
 				><b>Sponsors</b> and <b>Partners</b><span class="terminal">_</span>

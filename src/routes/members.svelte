@@ -65,21 +65,21 @@
 					</div>{/if}
 				{#if ready}<div in:fade={{ duration: 750 }} class="teammentors" style="top=0;">
 						<div class="card_tudor">
-							<img src="tudor.png" alt="Tudor Avram" style="width:100%" />
+							<img src="tudor.jpg" alt="Tudor Avram" style="width:100%" />
 							<div class="container">
 								<h2>>Tudor Avram<span class="terminal">_</span></h2>
 								<p class="title1">>Team Mentor<span class="terminal">_</span></p>
 							</div>
 						</div>
 						<div class="card">
-							<img src="lica.png" alt="Dana Lica" style="width:100%" />
+							<img src="lica.jpg" alt="Dana Lica" style="width:100%" />
 							<div class="container">
 								<h2>>Daniela Lica<span class="terminal">_</span></h2>
 								<p class="title1">>Team Mentor<span class="terminal">_</span></p>
 							</div>
 						</div>
 						<div class="card1">
-							<img src="soare.png" alt="Soare Stefan" style="width:100%" />
+							<img src="soare.jpg" alt="Soare Stefan" style="width:100%" />
 							<div class="container">
 								<h2>>Stefan Soare<span class="terminal">_</span></h2>
 								<p class="title1">>Technical Team Mentor<span class="terminal">_</span></p>
@@ -107,21 +107,21 @@
 
 				<div class="teamleaders">
 					<div class="card1">
-						<img src="sebi.png" alt="Sebastian Georgescu" style="width:100%" />
+						<img src="sebi.jpg" alt="Sebastian Georgescu" style="width:100%" />
 						<div class="container">
 							<h2>>Sebastian Georgescu<span class="terminal">_</span></h2>
 							<p class="title1">>Team Leader<span class="terminal">_</span></p>
 						</div>
 					</div>
 					<div class="card">
-						<img src="mada.png" alt="Madalina Andronache" style="width:100%" />
+						<img src="mada.jpg" alt="Madalina Andronache" style="width:100%" />
 						<div class="container">
 							<h2>>Madalina Andronache<span class="terminal">_</span></h2>
 							<p class="title1">>PR Dept. Leader<span class="terminal">_</span></p>
 						</div>
 					</div>
 					<div class="card2">
-						<img src="alin.png" alt="Alin Andras" style="width:100%" />
+						<img src="alin.jpg" alt="Alin Andras" style="width:100%" />
 						<div class="container">
 							<h2>>Alin Andras<span class="terminal">_</span></h2>
 							<p class="title1">>Technical Dept. Leader<span class="terminal">_</span></p>
@@ -129,7 +129,7 @@
 					</div>
 					<div class="break" />
 					<div class="card3">
-						<img src="codrin.png" alt="Codrin Ristea" style="width:100%" />
+						<img src="codrin.jpg" alt="Codrin Ristea" style="width:100%" />
 						<div class="container">
 							<h2>>Codrin Ristea<span class="terminal">_</span></h2>
 							<p class="title1">>3D Design Dept. Leader<span class="terminal">_</span></p>
@@ -162,7 +162,7 @@
 					</div>
 
 					<div class="card">
-						<img src="anne.png" alt="Anne Biciin" style="width:100%" />
+						<img src="anne.jpg" alt="Anne Biciin" style="width:100%" />
 						<div class="container">
 							<h2>>Anelisse Bîcîin<span class="terminal">_</span></h2>
 							<p class="title1">
@@ -172,7 +172,7 @@
 					</div>
 
 					<div class="card_antonia">
-						<img src="antonia.png" alt="Antonia Barbu" style="width:100%" />
+						<img src="antonia.jpg" alt="Antonia Barbu" style="width:100%" />
 						<div class="container">
 							<h2>>Antonia Barbu<span class="terminal">_</span></h2>
 							<p class="title1" style="font-size:15px;">
@@ -182,7 +182,7 @@
 					</div>
 
 					<div class="card_gabi">
-						<img src="gabi.png" alt="Gabi Enache" style="width:100%" />
+						<img src="gabi.jpg" alt="Gabi Enache" style="width:100%" />
 						<div class="container">
 							<h2>>Gabi Enache<span class="terminal">_</span></h2>
 							<p class="title1">
@@ -201,14 +201,14 @@
 					</div>
 
 					<div class="card1">
-						<img src="rares.png" alt="Rares Neagoe" style="width:100%" />
+						<img src="rares.jpg" alt="Rares Neagoe" style="width:100%" />
 						<div class="container">
 							<h2>>Rares Neagoe<span class="terminal">_</span></h2>
 							<p class="title1">>PR Dept. Member - Social Media<span class="terminal">_</span></p>
 						</div>
 					</div>
 					<div class="card1">
-						<img src="cretu.png" alt="Sebastian Cretu" style="width:100%" />
+						<img src="cretu.jpg" alt="Sebastian Cretu" style="width:100%" />
 						<div class="container">
 							<h2>>Sebastian Cretu<span class="terminal">_</span></h2>
 							<p class="title1">
@@ -218,7 +218,7 @@
 					</div>
 
 					<div class="card">
-						<img src="vlad.png" alt="Vlad Dinu" style="width:100%" />
+						<img src="vlad.jpg" alt="Vlad Dinu" style="width:100%" />
 						<div class="container">
 							<h2>>Vlad Dinu<span class="terminal">_</span></h2>
 							<p class="title1">
