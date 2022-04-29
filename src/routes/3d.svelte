@@ -59,7 +59,7 @@
 	<div class="background">
 		<div class="mobiletitle">
 			{#if ready}<a
-					href="https://gmail759693.autodesk360.com/shares/public/SH35dfcQT936092f0e43fd8b5363d7a3dc57"
+					href="https://gmail759693.autodesk360.com/g/shares/SH35dfcQT936092f0e43ebe71ccd56b6222f"
 					><h1 in:fly={{ y: -2000, duration: 2000 }}>
 						Click here to see the <b>3D CAD</b> of our
 						<b>2022 FTC Freight Frenzy World Championship Robot!</b>
@@ -80,7 +80,7 @@
 			<!-- svelte-ignore a11y-missing-attribute -->
 			{#if ready}<iframe
 					in:fade={{ duration: 5000 }}
-					src="https://gmail759693.autodesk360.com/shares/public/SH35dfcQT936092f0e43ebe71ccd56b6222f?mode=embed"
+					src="https://gmail759693.autodesk360.com/shares/public/SH35dfcQT936092f0e43fd8b5363d7a3dc57?mode=embed"
 					allowfullscreen="true"
 					webkitallowfullscreen="true"
 					mozallowfullscreen="true"
